@@ -1,22 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import OpenCV from './components/opencvTest'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <OpenCV canvas_id={3}/>
+       <OpenCV canvas_id={31}/>
+       <OpenCV canvas_id={32}/>
       </header>
     </div>
   );
